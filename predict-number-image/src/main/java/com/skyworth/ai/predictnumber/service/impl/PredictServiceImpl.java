@@ -61,7 +61,7 @@ public class PredictServiceImpl implements PredictService {
 
     @Override
     public int predict(MultipartFile file, boolean isNeedRevert) throws Exception {
-        log.info("start predict, file [{}], isNeedRevert [{}]", file.getOriginalFilename(), isNeedRevert);
+        log.info("1、开始识别, 文件：{}, 是否需要反转图片：{}", file.getOriginalFilename(), isNeedRevert);
 
         // 先存文件
         String rawFileName = ImageFileUtil.save(imageFilePath, file);
@@ -96,6 +96,9 @@ public class PredictServiceImpl implements PredictService {
         INDArray features = ImageFileUtil.getGrayImageFeatures(imageFilePath, resizeFileName);
 
         // 将特征传给模型去识别
-        return net.predict(features)[0];
+        log.info("4、将特征传给模型去识别");
+        int result = net.predict(features)[0];
+        log.info("5、手写数字识别为：{}", result);
+        return result;
     }
 }

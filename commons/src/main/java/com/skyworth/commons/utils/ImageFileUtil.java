@@ -81,7 +81,7 @@ public class ImageFileUtil {
         // 新文件名是原文件名在加个随机数后缀，而且扩展名固定为png
         String resizeFileName = fileName.substring(0, fileName.lastIndexOf(".")) + "-" + UUID.randomUUID() + ".png";
 
-        log.info("start resize, from [{}] to [{}]", fileName, resizeFileName);
+        log.info("2、将图片转为28*28像素，开始调整图片大小, from [{}] to [{}]", fileName, resizeFileName);
 
         try {
             // 读原始文件
@@ -105,7 +105,7 @@ public class ImageFileUtil {
             resizeFileName = null;
         }
 
-        log.info("finish resize, from [{}] to [{}]", fileName, resizeFileName);
+//        log.info("3、完成调整图片大小, from [{}] to [{}]", fileName, resizeFileName);
 
         return resizeFileName;
     }
@@ -183,7 +183,7 @@ public class ImageFileUtil {
      * @throws Exception
      */
     public static INDArray getGrayImageFeatures(String base, String fileName) throws Exception {
-        log.info("start getImageFeatures [{}]", base + fileName);
+        log.info("3、获取该黑白图片的特征，图片：{}", base + "/" + fileName);
 
         // 和训练模型时一样的设置
         ImageRecordReader imageRecordReader = new ImageRecordReader(RESIZE_HEIGHT, RESIZE_WIDTH, 1);
