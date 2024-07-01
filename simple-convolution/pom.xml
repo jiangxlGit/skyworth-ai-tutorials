@@ -12,13 +12,14 @@
     <artifactId>simple-convolution</artifactId>
 
     <properties>
-        <dl4j-master.version>1.0.0-beta6</dl4j-master.version>
+        <dl4j-master.version>1.0.0-beta7</dl4j-master.version>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
+            <version>1.18.26</version>
         </dependency>
 
         <dependency>

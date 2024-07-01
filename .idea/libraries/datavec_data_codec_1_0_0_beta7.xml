@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="datavec-data-codec-1.0.0-beta7">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/datavec-data-codec-1.0.0-beta7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/datavec-local-1.0.0-beta7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/deeplearning4j-parallel-wrapper-1.0.0-beta7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/deeplearning4j-ui-1.0.0-beta7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/deeplearning4j-zoo-1.0.0-beta7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javacv-platform-1.5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jcommons-1.0.23.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

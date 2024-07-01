@@ -13,6 +13,11 @@
 
     <packaging>jar</packaging>
 
+    <properties>
+        <dl4j-master.version>1.0.0-beta7</dl4j-master.version>
+    </properties>
+
+
     <!--不用spring-boot-starter-parent作为parent时的配置-->
     <dependencyManagement>
         <dependencies>
@@ -55,6 +60,67 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.datavec</groupId>
+            <artifactId>datavec-local</artifactId>
+            <version>${dl4j-master.version}</version>
+            <systemPath>${project.basedir}/lib/datavec-local-1.0.0-beta7.jar</systemPath>
+            <scope>system</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.deeplearning4j</groupId>
+            <artifactId>deeplearning4j-ui</artifactId>
+            <version>${dl4j-master.version}</version>
+            <systemPath>${project.basedir}/lib/deeplearning4j-ui-1.0.0-beta7.jar</systemPath>
+            <scope>system</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.deeplearning4j</groupId>
+            <artifactId>deeplearning4j-zoo</artifactId>
+            <version>${dl4j-master.version}</version>
+            <systemPath>${project.basedir}/lib/deeplearning4j-zoo-1.0.0-beta7.jar</systemPath>
+            <scope>system</scope>
+        </dependency>
+
+        <!-- ParallelWrapper & ParallelInference live here -->
+        <dependency>
+            <groupId>org.deeplearning4j</groupId>
+            <artifactId>deeplearning4j-parallel-wrapper</artifactId>
+            <version>${dl4j-master.version}</version>
+            <systemPath>${project.basedir}/lib/deeplearning4j-parallel-wrapper-1.0.0-beta7.jar</systemPath>
+            <scope>system</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jfree</groupId>
+            <artifactId>jcommon</artifactId>
+            <version>${jcommon.version}</version>
+            <systemPath>${project.basedir}/lib/jcommons-1.0.23.jar</systemPath>
+            <scope>system</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.datavec</groupId>
+            <artifactId>datavec-data-codec</artifactId>
+            <version>${dl4j-master.version}</version>
+            <systemPath>${project.basedir}/lib/datavec-data-codec-1.0.0-beta7.jar</systemPath>
+            <scope>system</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.bytedeco</groupId>
+            <artifactId>javacv-platform</artifactId>
+            <version>1.5.2</version>
+            <systemPath>${project.basedir}/lib/javacv-platform-1.5.2.jar</systemPath>
+            <scope>system</scope>
         </dependency>
 
     </dependencies>

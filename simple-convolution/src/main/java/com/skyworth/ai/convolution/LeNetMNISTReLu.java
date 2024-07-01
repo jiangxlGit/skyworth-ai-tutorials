@@ -39,9 +39,10 @@ import java.util.Random;
 public class LeNetMNISTReLu {
 
     // 存放文件的地址
-    private static final String BASE_PATH = "/Users/jloved/github_repo/skyworth-ai-tutorials";
+    private static final String BASE_PATH = System.getProperty("user.dir");
 
     public static void main(String[] args) throws Exception {
+        log.info("BASE_PATH = {}", BASE_PATH);
         // 图片像素高
         int height = 28;
         // 图片像素宽

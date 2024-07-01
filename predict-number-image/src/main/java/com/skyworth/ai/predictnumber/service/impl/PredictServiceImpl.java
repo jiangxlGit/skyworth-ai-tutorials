@@ -6,7 +6,6 @@ import lombok.extern.slf4j.Slf4j;
 import org.deeplearning4j.nn.multilayer.MultiLayerNetwork;
 import org.deeplearning4j.util.ModelSerializer;
 import org.nd4j.linalg.api.ndarray.INDArray;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -32,14 +31,12 @@ public class PredictServiceImpl implements PredictService {
     /**
      * 模型文件的位置
      */
-    @Value("${predict.modelpath}")
-    private String modelPath;
+    private final String modelPath = System.getProperty("user.dir") + "/mnist-model.zip";
 
     /**
      * 处理图片文件的目录
      */
-    @Value("${predict.imagefilepath}")
-    private String imageFilePath;
+    private final String imageFilePath = System.getProperty("user.dir");
 
     /**
      * 神经网络

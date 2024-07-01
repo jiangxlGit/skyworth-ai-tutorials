@@ -1,4 +1,4 @@
-com/bolingcavalry/predictnumber/service/impl/PredictServiceImpl.class
-com/bolingcavalry/predictnumber/service/PredictService.class
-com/bolingcavalry/predictnumber/controller/PredictController.class
-com/bolingcavalry/predictnumber/PredictNumberApplication.class
+com/skyworth/ai/predictnumber/PredictNumberApplication.class
+com/skyworth/ai/predictnumber/controller/PredictController.class
+com/skyworth/ai/predictnumber/service/impl/PredictServiceImpl.class
+com/skyworth/ai/predictnumber/service/PredictService.class

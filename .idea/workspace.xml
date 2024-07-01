@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5f0baacd-3819-4ef3-b356-36c827587945" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/bolingcavalry/commons/utils/DataUtilities.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/bolingcavalry/commons/utils/DownloaderUtility.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/bolingcavalry/commons/utils/ImageFileUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/bolingcavalry/commons/utils/PlotUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/bolingcavalry/commons/utils/VAEPlotUtil$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/bolingcavalry/commons/utils/VAEPlotUtil$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/bolingcavalry/commons/utils/VAEPlotUtil$MNISTLatentSpaceVisualizer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/bolingcavalry/commons/utils/VAEPlotUtil$MNISTLatentSpaceVisualizer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/bolingcavalry/commons/utils/VAEPlotUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/target/commons-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/commons/target/commons-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/commons/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/commons/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/commons/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/datavec-data-codec-1.0.0-beta7.jar" beforeDir="false" afterPath="$PROJECT_DIR$/predict-number-image/lib/datavec-data-codec-1.0.0-beta7.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/datavec-local-1.0.0-beta7.jar" beforeDir="false" afterPath="$PROJECT_DIR$/predict-number-image/lib/datavec-local-1.0.0-beta7.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/deeplearning4j-parallel-wrapper-1.0.0-beta7.jar" beforeDir="false" afterPath="$PROJECT_DIR$/predict-number-image/lib/deeplearning4j-parallel-wrapper-1.0.0-beta7.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/deeplearning4j-ui-1.0.0-beta7.jar" beforeDir="false" afterPath="$PROJECT_DIR$/predict-number-image/lib/deeplearning4j-ui-1.0.0-beta7.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/deeplearning4j-zoo-1.0.0-beta7.jar" beforeDir="false" afterPath="$PROJECT_DIR$/predict-number-image/lib/deeplearning4j-zoo-1.0.0-beta7.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javacv-platform-1.5.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/predict-number-image/lib/javacv-platform-1.5.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jcommons-1.0.23.jar" beforeDir="false" afterPath="$PROJECT_DIR$/predict-number-image/lib/jcommons-1.0.23.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/minist-model.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnist-model.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/predict-number-image/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/predict-number-image/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/predict-number-image/src/main/java/com/skyworth/ai/predictnumber/controller/PredictController.java" beforeDir="false" afterPath="$PROJECT_DIR$/predict-number-image/src/main/java/com/skyworth/ai/predictnumber/controller/PredictController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/predict-number-image/src/main/java/com/skyworth/ai/predictnumber/service/impl/PredictServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/predict-number-image/src/main/java/com/skyworth/ai/predictnumber/service/impl/PredictServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/predict-number-image/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/predict-number-image/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/predict-number-image/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/predict-number-image/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/predict-number-image/target/classes/com/bolingcavalry/predictnumber/PredictNumberApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/predict-number-image/target/classes/com/bolingcavalry/predictnumber/controller/PredictController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/predict-number-image/target/classes/com/bolingcavalry/predictnumber/service/PredictService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/predict-number-image/target/classes/com/bolingcavalry/predictnumber/service/impl/PredictServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/predict-number-image/target/classes/com/skyworth/ai/predictnumber/service/impl/PredictServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/predict-number-image/target/classes/com/skyworth/ai/predictnumber/service/impl/PredictServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/predict-number-image/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/predict-number-image/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/predict-number-image/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/predict-number-image/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/predict-number-image/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/predict-number-image/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/predict-number-image/target/predict-number-image-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/predict-number-image/target/predict-number-image-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-convolution/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/simple-convolution/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-convolution/src/main/java/com/skyworth/ai/convolution/LeNetMNISTReLu.java" beforeDir="false" afterPath="$PROJECT_DIR$/simple-convolution/src/main/java/com/skyworth/ai/convolution/LeNetMNISTReLu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-convolution/target/classes/com/skyworth/ai/convolution/LeNetMNISTReLu.class" beforeDir="false" afterPath="$PROJECT_DIR$/simple-convolution/target/classes/com/skyworth/ai/convolution/LeNetMNISTReLu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-convolution/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/simple-convolution/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-convolution/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/simple-convolution/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-convolution/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/simple-convolution/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-convolution/target/simple-convolution-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/simple-convolution/target/simple-convolution-1.0-SNAPSHOT.jar" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="$PROJECT_DIR$/../Documents/maven/apache-maven-3.9.6" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="useMavenConfig" value="false" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2idRMTlc7TDDa1aZfDjWrAFwZRd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.PredictNumberApplication.executor": "Debug",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/jloved/skyworth-ai-tutorials",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "库",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2555066",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "应用程序.LeNetMNISTReLu.executor": "Debug"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/predict-number-image" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.PredictNumberApplication">
+    <configuration name="LeNetMNISTReLu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.skyworth.ai.convolution.LeNetMNISTReLu" />
+      <module name="simple-convolution" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PredictNumberApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="predict-number-image" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.skyworth.ai.predictnumber.PredictNumberApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.PredictNumberApplication" />
+        <item itemvalue="应用程序.LeNetMNISTReLu" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="5f0baacd-3819-4ef3-b356-36c827587945" name="更改" comment="" />
+      <created>1719818423473</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719818423473</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,4 +1,4 @@
-/Users/jloved/github_repo/dlfj-tutorials/predict-number-image/src/main/java/com/bolingcavalry/predictnumber/service/PredictService.java
-/Users/jloved/github_repo/dlfj-tutorials/predict-number-image/src/main/java/com/bolingcavalry/predictnumber/PredictNumberApplication.java
-/Users/jloved/github_repo/dlfj-tutorials/predict-number-image/src/main/java/com/bolingcavalry/predictnumber/service/impl/PredictServiceImpl.java
-/Users/jloved/github_repo/dlfj-tutorials/predict-number-image/src/main/java/com/bolingcavalry/predictnumber/controller/PredictController.java
+/Users/jloved/skyworth-ai-tutorials/predict-number-image/src/main/java/com/skyworth/ai/predictnumber/service/PredictService.java
+/Users/jloved/skyworth-ai-tutorials/predict-number-image/src/main/java/com/skyworth/ai/predictnumber/service/impl/PredictServiceImpl.java
+/Users/jloved/skyworth-ai-tutorials/predict-number-image/src/main/java/com/skyworth/ai/predictnumber/controller/PredictController.java
+/Users/jloved/skyworth-ai-tutorials/predict-number-image/src/main/java/com/skyworth/ai/predictnumber/PredictNumberApplication.java
